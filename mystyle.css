@@ -1,6 +1,27 @@
 .nav-fill,
 .nav-justified {
   .nav-item .nav-link {
-    width: 50%; // Make sure button will grow
+    width: 50%; 
   }
+}
+footer>p{
+  text-align: center;
+  color: white;
+}
+body{
+  background: rgb(137, 166, 175);
+}
+footer{
+  background-color: green !important; 
+}
+
+.p-5{
+background-color:#07d3ed;
+}
+body > div:nth-child(1) > h1 > b{
+margin: 2rem;
+}
+
+#homepage > div.container.mt-3.p-5.my-5.border{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }

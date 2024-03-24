@@ -1,0 +1,6 @@
+.nav-fill,
+.nav-justified {
+  .nav-item .nav-link {
+    width: 50%; // Make sure button will grow
+  }
+}

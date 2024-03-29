@@ -14,38 +14,49 @@
   <div class="col-md-6" style="float: left;">
     <h1><strong>AVN TECH SERVICES</strong></h1>
   </div>
-  <div class="col-md-6" style="float: right">
+  <div  class="col-md-6" style="float: right;">
+    <ul style="
+    margin: 0;
+    padding: 0;">
+      
+    </ul>
     <ul class="nav nav-pills nav-fill p-2 gap-1 small bg-dark rounded-3 shadow-sm" id="pillNav2" role="tablist" style="
           --bs-nav-link-color: var(--bs-white);
           --bs-nav-pills-link-active-color: var(--bs-white);
           --bs-nav-pills-link-active-bg: var(--bs-success);
         ">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active rounded-3" text-white id="homeanchor" style="width: 40%" onClick="homefunction()"
+        <!-- <button class="nav-link btn active rounded-3 btn-block" text-white id="homeanchor" style="width: 40%" onClick="homefunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="true">
           Home
-        </button>
+        </button> -->
+        <button type="button" class="btn btn-primary" id="homeanchor" onClick="homefunction()">Home</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-3" id="updatesanchor" style="width: 60%" onClick="updatesfunction()"
+        <!-- <button class="nav-link rounded-3 btn-block" id="updatesanchor" style="width: 60%" onClick="updatesfunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
           Updates
-        </button>
+        </button> -->
+        <button type="button" class="btn btn-primary" id="updatesanchor" onClick="updatesfunction()">Updates</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-3" id="contactusanchor" style="width: 60%" onClick="contactusfunction()"
+        <!-- <button class="nav-link rounded-3 btn-block" id="contactusanchor" style="width: 60%" onClick="contactusfunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
           Contact Us
-        </button>
+        </button> -->
+        <button type="button" class="btn btn-primary" id="contactusanchor"  onClick="contactusfunction()">Contact Us</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-3" id="aboutanchor" style="width: 60%" onClick="aboutfunction()"
+        <!-- <button class="nav-link rounded-3 btn-block" id="aboutanchor" style="width: 60%" onClick="aboutfunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
           About
-        </button>
+        </button> -->
+        <button type="button" class="btn btn-primary" id="aboutanchor" onClick="aboutfunction()">About</button>
       </li>
     </ul>
   </div>
+  <br />
+  <br />
   <div class="homepage" id="homepage">
     <!-- Carousel -->
     <div col-md-6 id="demo" class="carousel slide" data-bs-ride="carousel">

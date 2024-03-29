@@ -1,15 +1,15 @@
-.nav-fill,
+/* .nav-fill,
 .nav-justified {
   .nav-item .nav-link {
     width: 50%; 
   }
-}
+} */
 footer>p{
   text-align: center;
   color: white;
 }
 body{
-  background: rgb(137, 166, 175);
+  background: white !important;
 }
 footer{
   background-color: green !important; 
@@ -18,10 +18,12 @@ footer{
 .p-5{
 background-color:#07d3ed;
 }
-body > div:nth-child(1) > h1 > b{
-margin: 2rem;
-}
 
 #homepage > div.container.mt-3.p-5.my-5.border{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.btn:hover {
+  color: var(--clr-white);
+  background: var(--clr-black) !important;
 }

@@ -1,9 +1,4 @@
-/* .nav-fill,
-.nav-justified {
-  .nav-item .nav-link {
-    width: 50%; 
-  }
-} */
+
 footer > p {
   text-align: center;
   color: white;
@@ -27,6 +22,21 @@ footer {
 }
 
 .btn:hover {
-  color: var(--clr-white);
-  background: var(--clr-black) !important;
+  cursor: pointer;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px;
+  transition: all 0.4s ease;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav.sticky{
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }

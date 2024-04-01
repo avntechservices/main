@@ -17,12 +17,12 @@ function homefunction() {
   debugger;
   
   homeelement.classList.remove("btn-primary");
-  homeelement.classList.add("btn-success");
-  updateselement.classList.remove("btn-success");
+  homeelement.classList.add("btn-info");
+  updateselement.classList.remove("btn-info");
   updateselement.classList.add("btn-primary");
-  contactuselement.classList.remove("btn-success");
+  contactuselement.classList.remove("btn-info");
     contactuselement.classList.add("btn-primary");
-    aboutelement.classList.remove("btn-success");
+    aboutelement.classList.remove("btn-info");
     aboutelement.classList.add("btn-primary");
     $(".homepage").show();
     $("#updatespage").hide();
@@ -33,12 +33,12 @@ function updatesfunction(){
     debugger;
 
     updateselement.classList.remove("btn-primary");
-    updateselement.classList.add("btn-success");
-    homeelement.classList.remove("btn-success");
+    updateselement.classList.add("btn-info");
+    homeelement.classList.remove("btn-info");
     homeelement.classList.add("btn-primary");
-    contactuselement.classList.remove("btn-success");
+    contactuselement.classList.remove("btn-info");
     contactuselement.classList.add("btn-primary");
-    aboutelement.classList.remove("btn-success");
+    aboutelement.classList.remove("btn-info");
     aboutelement.classList.add("btn-primary");
     $("#updatespage").show();
     $(".homepage").hide();
@@ -51,12 +51,12 @@ function contactusfunction(){
     debugger;
 
     contactuselement.classList.remove("btn-primary");
-    contactuselement.classList.add("btn-success");
-    homeelement.classList.remove("btn-success");
+    contactuselement.classList.add("btn-info");
+    homeelement.classList.remove("btn-info");
     homeelement.classList.add("btn-primary");
-    updateselement.classList.remove("btn-success");
+    updateselement.classList.remove("btn-info");
     updateselement.classList.add("btn-primary");
-    aboutelement.classList.remove("btn-success");
+    aboutelement.classList.remove("btn-info");
     aboutelement.classList.add("btn-primary");
     $("#updatespage").hide();
     $(".homepage").hide();
@@ -68,12 +68,12 @@ function aboutfunction(){
     debugger;
 
     aboutelement.classList.remove("btn-primary");
-    aboutelement.classList.add("btn-success");
-    homeelement.classList.remove("btn-success");
+    aboutelement.classList.add("btn-info");
+    homeelement.classList.remove("btn-info");
     homeelement.classList.add("btn-primary");
-    updateselement.classList.remove("btn-success");
+    updateselement.classList.remove("btn-info");
     updateselement.classList.add("btn-primary");
-    contactuselement.classList.remove("btn-success");
+    contactuselement.classList.remove("btn-info");
     contactuselement.classList.add("btn-primary");
     $("#updatespage").hide();
     $(".homepage").hide();

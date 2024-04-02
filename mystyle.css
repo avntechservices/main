@@ -50,8 +50,7 @@ nav.sticky{
 }
 
 .form-container {
-  max-width: 100%;
-  width: auto !important;
+   max-width: 60%; 
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;

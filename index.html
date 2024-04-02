@@ -10,8 +10,8 @@
   <script src="myscript.js"></script>
   <title>AVN Tech Services</title>
 </head>
-<body>
-  <nav class="bg-white">
+<body class="main">
+  <nav class="bg-white ">
   <div class="col-md-6" style="float: left;">
     <h1><strong>AVN TECH SERVICES</strong></h1>
   </div>
@@ -22,25 +22,25 @@
           --bs-nav-pills-link-active-bg: var(--bs-info);
         ">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active rounded-3" text-white id="homeanchor" style="width: 60%" onClick="homefunction()"
+        <button class="nav-link active  rounded-3" text-white id="homeanchor" style="width: auto" onClick="homefunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="true">
           <b>Home</b>
           </button></b>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-3" id="updatesanchor" style="width: 60%" onClick="updatesfunction()"
+        <button class="nav-link  rounded-3" id="updatesanchor" style="width: auto" onClick="updatesfunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
           <b>Updates</b>
         </button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-3" id="contactusanchor" style="width: 60%" onClick="contactusfunction()"
+        <button class="nav-link  rounded-3" id="contactusanchor" style="width: auto" onClick="contactusfunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
         <b>Contact Us</b>
         </button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link rounded-3" id="aboutanchor" style="width: 60%" onClick="aboutfunction()"
+        <button class="nav-link  rounded-3" id="aboutanchor" style="width: auto" onClick="aboutfunction()"
           data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
           <b>About</b>
         </button>
@@ -56,14 +56,14 @@
     <br/>
     <div col-md-6 id="demo" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicators/dots -->
-      <div class="carousel-indicators">
+      <div class="carousel-indicators ">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
       </div>
       <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
+      <div class="carousel-inner mt-3 p-1">
         <div class="carousel-item active">
           <img src="my1.jpg" alt="Los Angeles" class="d-block" height="400" width="1400" />
         </div>
@@ -136,12 +136,12 @@
     </div>
   </div>
   <br/>
-  <div class="updatespage" id="updatespage">
+  <div class="updatespage mt-3 p-3" id="updatespage">
     <div class="container-fluid p-2 text-black bg-info text-center">
       <h3>This is Updates Page</h3>
     </div>
   </div>
-  <div class="contactuspage" id="contactuspage">
+  <div class="contactuspage " id="contactuspage">
     <div class="container-fluid p-2 text-black bg-warning text-center">
       <!-- banner section  -->
     <section class="banner">
@@ -156,7 +156,7 @@
 
   <!-- Contact form -->
   <section class="contact-form">
-      <div class="form-container">
+      <div class="form-container" style="width: 200%;">
           <h2>Your Details</h2>
           <form action="#" method="POST">
 
@@ -192,8 +192,8 @@
       <button id="callBtn">Phone</button>
     </div>
   </div>
-  <div class="aboutpage" id="aboutpage">
-    <div class="container-fluid p-2 text-dark bg-info text-center">
+  <div class="aboutpage mt-3 p-3" id="aboutpage">
+    <div class="container-fluid p-2 text-white bg-success text-center">
       <h3>This is About Page</h3>
     </div>
   </div>

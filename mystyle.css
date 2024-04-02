@@ -27,17 +27,18 @@ footer {
 
 nav{
   position: fixed;
-  top: 0;
+  top: 10;
   left: 0;
   width: 100%;
   padding: 2px;
+  margin:auto;
   transition: all 0.4s ease;
-  background: #4070f4;
+  background: #090909;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 nav.sticky{
   padding: 15px 20px;
-  background: #4070f4;
+  background: #050505;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,7 +50,8 @@ nav.sticky{
 }
 
 .form-container {
-  max-width: 40%;
+  max-width: 100%;
+  width: auto !important;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
@@ -97,4 +99,16 @@ nav.sticky{
 
 .contact-info h2 {
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .main{
+    width: 100%;
+  }
+} 
+
+.nav-link:hover
+{
+background-image:none !important;
+background-color:#07d3ed !important;
 }

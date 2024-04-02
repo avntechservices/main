@@ -143,7 +143,53 @@
   </div>
   <div class="contactuspage" id="contactuspage">
     <div class="container-fluid p-2 text-black bg-warning text-center">
-      <h3>This is Contact Us Page</h3>
+      <!-- banner section  -->
+    <section class="banner">
+      <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
+          alt="Welcome to our Contact Us page">
+      <h1>Get in Touch With Us</h1>
+      <p>
+        We're here to answer any questions you may have.
+        </p>
+  </section>
+
+  <!-- Contact form -->
+  <section class="contact-form">
+      <div class="form-container">
+          <h2>Your Details</h2>
+          <form action="#" method="POST">
+
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="phone">Phone: </label>
+              <input type="tel" id="phone" name="phone">
+
+              <label for="message">Message: </label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <button type="submit" class="submit-button">Submit</button>
+          </form>
+      </div>
+  </section>
+
+  <!-- Company contact info -->
+  <section class="contact-info">
+      <h2>Contact Information</h2>
+      <address>
+          AVN Tech Services<br>
+          Hitech-city,<br>
+          Hyderabad, Telangana 500081<br>
+          Phone: <a href="tel:9703682337">9703682337</a><br>
+          Email: <a href="mailto:avntechservices@gmail.com">avntechservices@gmail.com</a>
+      </address>
+  </section>
+      <button id="emailBtn">Email</button>
+      <button id="callBtn">Phone</button>
     </div>
   </div>
   <div class="aboutpage" id="aboutpage">

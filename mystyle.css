@@ -7,12 +7,15 @@ body {
   background: white !important;
 }
 footer {
-  background-color: green !important;
+  background-color: #030304 !important;
   /* position: fixed; */
   bottom: 0;
   width: 100%;
 }
 
+#magine-footer h5, #magine-footer h6 {
+  color: #fff;
+}
 .p-5 {
   background-color: #07d3ed;
 }
@@ -26,7 +29,7 @@ footer {
 }
 
 nav{
-  position: fixed;
+  /* position: fixed; */
   top: 10;
   left: 0;
   width: 100%;
@@ -119,3 +122,8 @@ background-color:#07d3ed !important;
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
 }
+
+.menu-item{
+  color: white;
+}
+

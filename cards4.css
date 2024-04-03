@@ -77,6 +77,9 @@ h1{
   .orange{background-color: #fc7f0c;}
   .red{background-color: #e84b3a;}
   .grey{background-color: #474747;}
+  .rhino{background-color:#343F71;}
+  .white{background-color: #fff;}
+  .brown{background-color: #703F37}
   .service-box:hover .service-icon{
    opacity: 0;
    -webkit-transform: translateY(-110px) rotateX(90deg);

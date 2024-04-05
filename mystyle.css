@@ -82,7 +82,7 @@ nav.sticky{
   margin-bottom: 1rem;
   resize: vertical;
 }
-.submit-button {
+.submit-button, .email-button, .phone-button{
   padding: 10px 20px;
   background-color: #0dac30;
   border: none;
@@ -119,7 +119,7 @@ background-color:#07d3ed !important;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Rubik', sans-serif;
 }
 

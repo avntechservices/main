@@ -27,6 +27,7 @@ body
   overflow:hidden;
   color:white;
   font-family:'Roboto';
+  border-radius: 30px;
   
 }
 .tile img

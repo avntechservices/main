@@ -1,9 +1,4 @@
-HTML CSS JSResult Skip Results Iframe
-EDIT ON
-body
-{
-  background-color:#eee
-}
+
 .wrap
 {
   margin:50px auto 0 auto;
@@ -23,7 +18,7 @@ body
   position:relative;
   cursor:pointer;
   transition: all 0.4s ease-out;
-  box-shadow: 10px 10px 5px white inset;
+  box-shadow: 5px 5px 5px white inset;
   overflow:hidden;
   color:white;
   font-family:'Roboto';
@@ -46,7 +41,7 @@ body
   position:absolute;
   padding:55px;
    /* height:calc(100% - 100px);  */
-  box-shadow: 12px 12px 12px white inset;
+  box-shadow: 5px 5px 5px white inset;
 }
 .tile h1
 {
@@ -79,7 +74,7 @@ body
 .tile:hover
 {
 /*   background-color:#99aeff; */
-box-shadow: 10px 10px 10px white inset;
+box-shadow: 5px 5px 5px white inset;
   transform:scale(1.05);
 }
 .tile:hover img

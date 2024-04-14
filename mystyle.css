@@ -7,7 +7,7 @@ body {
   background: white !important;
 }
 footer {
-  background-color: #030304 !important;
+  background-color: #142457 !important;
   /* position: fixed; */
   bottom: 0;
   width: 100%;
@@ -88,6 +88,7 @@ nav.sticky{
   resize: vertical;
 }
 .submit-button, .email-button, .phone-button{
+  text-align: center;
   padding: 10px 20px;
   background-color: #0dac30;
   border: none;

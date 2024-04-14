@@ -17,7 +17,7 @@ h1{
    text-align: center;
    transition: all .5s ease;
    border-radius: 30px;
-   box-shadow: 10px 10px 5px white inset;
+   box-shadow: 5px 5px 5px white inset;
   }
   
   .service-content{
@@ -97,6 +97,6 @@ h1{
    -ms-transform: rotateX(0);
    -o-transform: rotateX(0);
    transform: rotateX(0);
-   box-shadow: 10px 10px 5px white inset;
+   box-shadow: 5px 5px 5px white inset;
    border-radius: 30px;
   }

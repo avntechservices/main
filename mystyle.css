@@ -41,7 +41,7 @@ nav{
   padding: 2px;
   margin:auto;
   transition: all 0.4s ease;
-  background: #090909;
+  background: #052c65 !important;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 nav.sticky{
@@ -141,6 +141,9 @@ background-color:#07d3ed !important;
   display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust as needed */
+    height: 65vh; /* Adjust as needed */
   
+}
+.bg{
+  background-color: #142457 !important;
 }

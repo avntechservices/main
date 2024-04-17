@@ -32,7 +32,10 @@ footer {
   width: auto;
   box-shadow: 10px 10px 5px white inset;
 }
-
+.responsive {
+  width: 100%;
+  height: auto;
+}
 nav{
   /* position: fixed; */
   top: 10;
@@ -145,5 +148,5 @@ background-color:#07d3ed !important;
   
 }
 .bg{
-  background-color: #142457 !important;
+  background-color: #030b3e !important;
 }

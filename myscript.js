@@ -13,9 +13,7 @@ $(document).ready(function() {
   contactuselement = document.getElementById("contactusanchor");
   aboutelement = document.getElementById("aboutanchor");
 });
-function homefunction() {
-  debugger;
-  
+function homefunction() {  
   homeelement.classList.remove("btn-primary");
   homeelement.classList.add("btn-info");
   updateselement.classList.remove("btn-info");

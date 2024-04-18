@@ -110,19 +110,20 @@ img {
 
   &:hover {
     background-color: var(--color-black);
+    color: var(--color-white);
   }
 }
 
 .button {
-            width: fit-content;
-            color: #000000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
- .button:hover {
-  background-color: #000000;
-  color:#ffffff;
+    width: fit-content;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #000000;
+      color: #ffffff;
+    }
 }

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolutionizing Business Operations with Robotic Process Automation (RPA)</title>
+    <style>
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        img{
+            max-width: fit-content;
+                width: 100%;
+                height: auto;
+
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            overflow: hidden;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .emphasis {
+            font-style: italic;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+
+          /* Pagination styles */
+  .pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  .pagination li {
+    margin: 0 5px;
+  }
+  .pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+  }
+  .pagination a:hover {
+    background-color: #f2f2f2;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div class="card" id="content">
+        <h1>Top 10 New Android Apps To Install In April 2024</h1>
+        <img src="./updates/apps.jpg" alt="Rpa" class="image_full"/>
+       <p> In April 2024, the Google Play Store offers a plethora of innovative and useful Android apps to enhance productivity, creativity, and entertainment. Here are the top 10 new Android apps worth installing:</p>
+
+<h3>1. Google Assistant:</h3><p>Seamlessly integrate voice commands into your daily tasks and access information with ease.</p>
+<h3>2. Duolingo:</h3>  <p>Learn new languages through fun and interactive lessons, perfect for language enthusiasts and travelers alike.</p>
+<h3>3. Grammarly:</h3>  <p>Improve your writing skills with Grammarly's advanced grammar checking, spell checking, and vocabulary enhancement features.</p>
+<h3>4. Otter.ai:</h3>  <p>Transcribe your conversations, meetings, and lectures accurately using Otter.ai's AI-powered transcription service, making note-taking effortless.</p>
+<h3>5. Evernote:</h3>  <p>Stay organized by capturing and organizing notes, ideas, and tasks in one place, accessible from any device.</p>
+<h3>6. Headspace:</h3>  <p>Prioritize mental health and mindfulness with guided meditations, sleep stories, and relaxation techniques.</p>
+<h3>7. Prisma:</h3>  <p>Transform your photos into stunning artworks with Prisma's AI-powered photo editing filters and effects.</p>
+<h3>8. Canva:</h3>  <p>Create professional-looking graphics, presentations, social media posts, and more with Canva's easy-to-use design tools.</p>
+<h3>9. Google Translate:</h3>  <p>Break language barriers by translating text, speech, and images instantly, essential for travelers and language learners.</p>
+<h3>10. LingoDeer:</h3>  <p>Learn languages effectively through structured lessons and exercises designed for beginners to advanced learners.</p>
+<p>These apps cater to various needs, from language learning to productivity and creativity, making them essential additions to your Android device in April 2024.</p>
+    </div>
+    <ul class="pagination" id="pagination"></ul>
+    <footer>
+        <p>&copy; 2024 Revolutionizing RPA. All rights reserved.</p>
+    </footer>
+    <script>
+        // Sample data
+        const totalItems = 100; // Total number of items
+        const itemsPerPage = 10; // Items per page
+      
+        // Function to generate pagination links
+        function generatePagination() {
+          const totalPages = Math.ceil(totalItems / itemsPerPage);
+          const pagination = document.getElementById('pagination');
+          
+          // Clear existing pagination links
+          pagination.innerHTML = '';
+      
+          // Generate pagination links
+          for (let i = 1; i <= totalPages; i++) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = '#';
+            a.textContent = i;
+            a.addEventListener('click', () => onPageClick(i));
+            li.appendChild(a);
+            pagination.appendChild(li);
+          }
+        }
+      
+        // Function to handle page click event
+        function onPageClick(pageNumber) {
+          // Logic to fetch and display items for the selected page
+          console.log(`Page ${pageNumber} clicked`);
+        }
+      
+        // Initial pagination generation
+        generatePagination();
+      </script>
+</body>
+</html>

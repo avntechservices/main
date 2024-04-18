@@ -112,3 +112,17 @@ img {
     background-color: var(--color-black);
   }
 }
+
+.button {
+            width: fit-content;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+ .button:hover {
+  background-color: #000000;
+  color:#ffffff;
+}

@@ -127,3 +127,31 @@ img {
       color: #ffffff;
     }
 }
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+a {
+  text-decoration: none;
+  width: fit-content;
+  margin-block-start: auto;
+  padding-inline: var(--p-inline);
+  padding-block: calc(var(--p-block) * 0.5);
+  border: 1px solid var(--color-black);
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  cursor: pointer;
+}  
+ul {
+  list-style-type: none;
+}
+
+a.button {
+  border: 1px solid transparent; /* Add a transparent border to maintain button size */
+  outline: 1px solid rgb(0, 0, 0); /* Set the outline to 2px solid blue */
+  padding: 8px 16px; /* Adjust padding as needed */
+  text-decoration: none; /* Remove default underline */
+  display: inline-block; /* Ensure the button behaves like a block element */
+}

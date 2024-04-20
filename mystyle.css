@@ -145,8 +145,18 @@ background-color:#07d3ed !important;
     justify-content: center;
     align-items: center;
     height: 65vh; /* Adjust as needed */
+    max-width: 1370px;
   
 }
 .bg{
   background-color: #030b3e !important;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1370px;
+}
+}
+.container{
+  width: 1370px;
 }

@@ -4,6 +4,7 @@ var contactuselement;
 var aboutelement;
 
 $(document).ready(function() {
+  $(".searchIcon").show();
     $(".homepage").show();
     $("#updatespage").hide();
     $(".contactuspage").hide();
@@ -26,9 +27,9 @@ function homefunction() {
     $("#updatespage").hide();
     $(".contactuspage").hide();
     $(".aboutpage").hide();
+    $(".nav").removeClass("openNav");
 }
 function updatesfunction(){
-    debugger;
 
     updateselement.classList.remove("btn-primary");
     updateselement.classList.add("btn-info");
@@ -42,11 +43,11 @@ function updatesfunction(){
     $(".homepage").hide();
     $(".contactuspage").hide();
     $(".aboutpage").hide();
+    $(".nav").removeClass("openNav");
 }
 
 
 function contactusfunction(){
-    debugger;
 
     contactuselement.classList.remove("btn-primary");
     contactuselement.classList.add("btn-info");
@@ -60,10 +61,10 @@ function contactusfunction(){
     $(".homepage").hide();
     $(".contactuspage").show();
     $(".aboutpage").hide();
+    $(".nav").removeClass("openNav");
 }
 
 function aboutfunction(){
-    debugger;
 
     aboutelement.classList.remove("btn-primary");
     aboutelement.classList.add("btn-info");
@@ -77,4 +78,5 @@ function aboutfunction(){
     $(".homepage").hide();
     $(".contactuspage").hide();
     $(".aboutpage").show();
+    $(".nav").removeClass("openNav");
 }

@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="contacts.css">
   <link rel="stylesheet" href="cards5.css">
   <link rel="stylesheet" href="pagination.css">
-  <link rel="stylesheet" href="navmenu.css">
+  <!-- <link rel="stylesheet" href="navmenu.css"> -->
+  <link rel="stylesheet" href="nav2.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -21,7 +23,7 @@
 </head>
 
 <body class="main" style="background-color:#ffc107!important;">
-  <nav class="bg-white">
+  <!-- <nav class="bg-white">
     <div class="col-md-6" style="float: left;background-color:#030b3e">
       <h1 style="color: rgb(255, 255, 255);font-family: Tahoma, Verdana, sans-serif;">AVN TECH SERVICES</h1>
     </div>
@@ -57,10 +59,26 @@
         </li>
       </ul>
     </div>
-  </nav>
-  <br />
-  <br />
+  </nav> -->
+  <nav class="nav">
+    <i class="uil uil-bars navOpenBtn"></i>
+    <h1 style="color: rgb(255, 255, 255);font-family: Tahoma, Verdana, sans-serif;height: 20px;text-align: center;">AVN TECH SERVICES</h1>
+    <!-- <a href="#" class="logo">AVN Tech Services</a> -->
+    <class class="nav-links">
+      <i class="uil uil-times navCloseBtn"></i>
+      <li><button  id="homeanchor" style="font-weight: 500 !important;"  onClick="homefunction()">Home</button></li>
+      <li><button  id="updatesanchor"  onClick="updatesfunction()">Updates</button></li>
+      <li><button  id="contactusanchor"  onClick="contactusfunction()">Contact Us</button></li>
+      <li><button  id="aboutanchor" onClick="aboutfunction()">About</button></li>
+    </ul>
 
+    <i class="uil uil-search search-icon" id="searchIcon"></i>
+    <div class="search-box">
+      <i class="uil uil-search search-icon"></i>
+      <input type="text" placeholder="Search here..." />
+    </div>
+  </nav>
+  
   <div class="homepage" id="homepage">
     <!-- Carousel -->
     <div col-md-6 id="demo" class="carousel slide container" data-bs-ride="carousel">
@@ -72,7 +90,7 @@
         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
       </div>
       <!-- The slideshow/carousel -->
-      <div class="carousel-inner mt-3 p-1">
+      <div class="carousel-inner mt-1 p-1">
         <div class="carousel-item active">
           <img src="my1.jpg" alt="Los Angeles" class="d-block" height="400" style="max-width: 100%" />
         </div>
@@ -218,7 +236,7 @@
     </div>
   </div>
 
-  <div class="updatespage mt-3 p-1" id="updatespage">
+  <div class="updatespage mt-1 p-1" id="updatespage">
     <div class="container-fluid p-1 text-black bg-white text-center">
       <!-- <div class="wrap">
         <div class="tile">
@@ -263,6 +281,22 @@
         </div>
       </div> -->
       <div class="wrap" style="display: flex;justify-content: center;gap: 5px;">
+        <article class="card">
+          <div class="card-container">
+            <figure class="card-image-wrapper">
+              <img src="./updates/ai.jpg" alt="card 01 image" />
+            </figure>
+            <div class="card-content">
+              <h1 class="card-title">Artificial Intelligence (AI):</h1>
+              <p class="card-desc">
+                Advancements in AI, quantum computing, and robotics 
+              </p>
+              <!-- <button class="card-btn"> -->
+                <a href="aiindex.html" class="button">Read More</a>
+              <!-- </button> -->
+            </div>
+          </div>
+        </article>
         <article class="card">
           <div class="card-container">
             <figure class="card-image-wrapper">
@@ -321,6 +355,24 @@
         <article class="card">
           <div class="card-container">
             <figure class="card-image-wrapper">
+              <img src="./updates/apps.jpg" alt="card 03 image" />
+            </figure>
+            <div class="card-content">
+              <h1 class="card-title">
+                Top 10 New Android Apps To Install In April 2024
+              </h1>
+              <p class="card-desc">
+                Apps are the backbone of the Android experience, allowing users to choose from various sources. However,… 
+              </p>
+              <!-- <button class="card-btn"> -->
+                <a href="top10apps.html" class="button">Read More</a>
+              <!-- </button> -->
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-container">
+            <figure class="card-image-wrapper">
               <img src="./updates/lowcodeai.jpg" alt="card 01 image" />
             </figure>
             <div class="card-content">
@@ -371,22 +423,7 @@
 
       </div>
       <div class="wrap" style="display: flex;justify-content: center;gap: 5px;">
-        <article class="card">
-          <div class="card-container">
-            <figure class="card-image-wrapper">
-              <img src="./updates/ai.jpg" alt="card 01 image" />
-            </figure>
-            <div class="card-content">
-              <h1 class="card-title">Artificial Intelligence (AI):</h1>
-              <p class="card-desc">
-                Advancements in AI, quantum computing, and robotics 
-              </p>
-              <!-- <button class="card-btn"> -->
-                <a href="aiindex.html" class="button">Read More</a>
-              <!-- </button> -->
-            </div>
-          </div>
-        </article>
+        
         <article class="card">
           <div class="card-container">
             <figure class="card-image-wrapper">
@@ -406,24 +443,7 @@
             </div>
           </div>
         </article>
-        <article class="card">
-          <div class="card-container">
-            <figure class="card-image-wrapper">
-              <img src="./updates/apps.jpg" alt="card 03 image" />
-            </figure>
-            <div class="card-content">
-              <h1 class="card-title">
-                Top 10 New Android Apps To Install In April 2024
-              </h1>
-              <p class="card-desc">
-                Apps are the backbone of the Android experience, allowing users to choose from various sources. However,… 
-              </p>
-              <!-- <button class="card-btn"> -->
-                <a href="top10apps.html" class="button">Read More</a>
-              <!-- </button> -->
-            </div>
-          </div>
-        </article>
+        
 
       </div>
       
@@ -610,6 +630,7 @@
     </div>
 
   </footer>
+  <script type="text/javascript" src="nav2.js"></script>
 </body>
 
 </html>

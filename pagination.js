@@ -22,7 +22,7 @@ paginationLinks.forEach(link => {
 
  // JavaScript for pagination
  const cardsPerPage = 2;
- const cards = document.querySelectorAll('.card');
+ const cards = document.querySelectorAll('.custom-card');
  const totalCards = cards.length;
  const totalPages = Math.ceil(totalCards / cardsPerPage);
  const maxPaginationButtons = 2; // Maximum number of pagination buttons to display

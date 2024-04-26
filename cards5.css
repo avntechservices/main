@@ -30,7 +30,7 @@ img {
   background-color: var(--color-light-gray); */
 }
 .card {
-  width: min(100%, 400px) !important;
+  width: min(100%, 375px) !important;
   padding-inline: var(--p-inline);
   padding-block: var(--p-block);
   background-color: var(--color-white);

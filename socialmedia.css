@@ -1,5 +1,5 @@
  .social-icons{
-     width: "50%"; 
+     width: "40%"; 
     max-width: auto;
      display: flex;
     justify-content: center; 
@@ -132,7 +132,7 @@
 	color:#fff;
   line-height:10px;
   font-size:20px;
-  margin: 25px 5px;
+  margin: 25px 3px;
   text-decoration:none;
   
 }

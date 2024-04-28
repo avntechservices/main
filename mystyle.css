@@ -8,7 +8,7 @@ body {
 }
 footer {
   background-color: #142457 !important;
-  /* position: fixed; */
+  position: baseline;
   bottom: 0;
   width: 100%;
 }
@@ -173,3 +173,13 @@ background-color:#07d3ed !important;
       height: fit-content;
   }
 }
+/* .login-page{
+  max-width: fit-content;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 450px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */

@@ -13,6 +13,7 @@ $(document).ready(function() {
   updateselement = document.getElementById("updatesanchor");
   contactuselement = document.getElementById("contactusanchor");
   aboutelement = document.getElementById("aboutanchor");
+  $(".login-page").hide();
 });
 function homefunction() {  
   homeelement.classList.remove("btn-primary");
@@ -28,6 +29,7 @@ function homefunction() {
     $(".contactuspage").hide();
     $(".aboutpage").hide();
     $(".nav").removeClass("openNav");
+    $(".login-page").hide();
 }
 function updatesfunction(){
 
@@ -44,6 +46,7 @@ function updatesfunction(){
     $(".contactuspage").hide();
     $(".aboutpage").hide();
     $(".nav").removeClass("openNav");
+    $(".login-page").hide();
 }
 
 
@@ -62,6 +65,7 @@ function contactusfunction(){
     $(".contactuspage").show();
     $(".aboutpage").hide();
     $(".nav").removeClass("openNav");
+    $(".login-page").hide();
 }
 
 function aboutfunction(){
@@ -79,4 +83,23 @@ function aboutfunction(){
     $(".contactuspage").hide();
     $(".aboutpage").show();
     $(".nav").removeClass("openNav");
+    $(".login-page").hide();
+}
+
+function loginfunction(){
+
+  aboutelement.classList.remove("btn-primary");
+  aboutelement.classList.add("btn-info");
+  homeelement.classList.remove("btn-info");
+  homeelement.classList.add("btn-primary");
+  updateselement.classList.remove("btn-info");
+  updateselement.classList.add("btn-primary");
+  contactuselement.classList.remove("btn-info");
+  contactuselement.classList.add("btn-primary");
+  $("#updatespage").hide();
+  $(".homepage").hide();
+  $(".contactuspage").hide();
+  $(".aboutpage").hide();
+  $(".nav").removeClass("openNav");
+  $(".login-page").show();
 }
